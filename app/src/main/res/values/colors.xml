@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Twilight Glow Palette -->
+    <color name="light_blue_primary">#FFA3CEF1</color>
+    <color name="light_blue_primary_container">#FFD9ECFD</color>
+    <color name="on_light_blue_primary">#FF000000</color> <!-- Text/icons on primary -->
+
+    <color name="lavender_secondary">#FFC6B2E5</color>
+    <color name="lavender_secondary_container">#FFE8DDF7</color>
+
+    <color name="indigo_tertiary">#FF59546C</color>
+    <color name="indigo_tertiary_container">#FF7E7893</color>
+
+    <!-- Surface/Background -->
+    <color name="background">#FFE2CFEA</color> <!-- Pale Lilac -->
+    <color name="surface">#FFEDE5F2</color> <!-- 5% lighter variant -->
+    <color name="surface_variant">#FFF7F2FA</color> <!-- For cards -->
+
+    <!-- Text -->
+    <color name="on_background">#FF59546C</color> <!-- Deep Indigo -->
+    <color name="on_surface">#FF59546C</color>
+    <color name="on_surface_variant">#FF7A7590</color> <!-- Lighter indigo -->
+
+    <!-- Accents -->
+    <color name="electric_blue_accent">#FF4CC9F0</color>
+    <color name="error">#FFFF6B6B</color> <!-- Complementary coral for errors -->
+    <!-- State Colors (Press/Hover) -->
+    <color name="light_blue_primary_pressed">#FF8BB9DE</color> <!-- 15% darker -->
+    <color name="lavender_secondary_pressed">#FFB29BD4</color>
+
+    <!-- Dark Mode Alternatives (optional) -->
+    <color name="dark_surface">#FF1E1B2C</color>
+    <color name="dark_on_surface">#FFE2DFED</color>
+
+    <color name="deep_space_blue">#0F0520</color>
+    <color name="neon_purple">#6E00F5</color>
+    <color name="neon_blue">#00F0FF</color>
+    <color name="neon_cyan">#00FFE0</color>
+
+    <color name="correct">#FF00FF00</color>
+    <color name="wrong">#FFFF6B6B</color>
+</resources>

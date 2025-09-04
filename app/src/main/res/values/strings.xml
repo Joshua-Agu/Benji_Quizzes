@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Benji Quizzes</string>
+    <string name="benji_quizzes">Benji-Quizzes!!</string>
+    <string name="confirm">Confirm</string>
+    <string name="question">QUESTION</string>
+    <string name="option1">option 1</string>
+    <string name="option2">option 2</string>
+    <string name="option3">option 3</string>
+    <string name="restart">Restart</string>
+    <string name="_12_questions_lets_go_techy">12 Questions : Lets Go Techy!!</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Existing Gradient Background -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/electric_blue_accent"
+                android:endColor="@color/deep_space_blue"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Thin Black Line - Center -->
+    <item android:gravity="center" android:bottom="110dp">
+        <shape android:shape="rectangle">
+            <size android:height="4dp" />
+            <solid android:color="@android:color/holo_blue_dark" />
+        </shape>
+    </item>
+
+    <!-- Thin Black Line - Above Center -->
+    <item android:gravity="center" android:bottom="90dp">
+        <shape android:shape="rectangle">
+            <size android:height="4dp" />
+            <solid android:color="@color/electric_blue_accent" />
+        </shape>
+    </item>
+
+    <!-- Thin Black Line - Further Above Center -->
+    <item android:gravity="center" android:bottom="70dp">
+        <shape android:shape="rectangle">
+            <size android:height="4dp" />
+            <solid android:color="@color/light_blue_primary_pressed" />
+        </shape>
+    </item>
+</layer-list>
