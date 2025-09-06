@@ -23,11 +23,17 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
+            <!-- Keep existing intent-filter if MainActivity can also be a launcher -->
+            <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> -->
         </activity>
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false" /> 
+            <!-- exported=false because it's launched only by MainActivity -->
+
     </application>
 
 </manifest>
